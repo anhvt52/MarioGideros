@@ -1,0 +1,22 @@
+<project>
+ <properties autorotation="0" encrypt="0" fps="60" scaleMode="5" mouseToTouch="1" iosDevice="0" packageName="com.geisonbiazus.gmail.runnergame" logicalHeight="800" logicalWidth="480" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="1" architecture="1">
+  <imageScales/>
+ </properties>
+ <file source="scenemanager.lua"/>
+ <file source="game.lua"/>
+ <folder name="fonts">
+  <file source="fonts/DroidSerif-Bold.txt"/>
+  <file source="fonts/DroidSerif-Bold.png"/>
+ </folder>
+ <folder name="gfx">
+  <file source="gfx/hero.txt"/>
+  <file source="gfx/hero.png"/>
+ </folder>
+ <folder name="maps">
+  <file source="maps/generic_platformer_tiles.png"/>
+  <file source="maps/map01.lua"/>
+ </folder>
+ <file source="hero.lua"/>
+ <file source="main.lua"/>
+ <file source="tiled_map.lua"/>
+</project>
